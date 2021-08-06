@@ -8,7 +8,7 @@ def bsearch(list, val):
     idxn = list_size
 # Find the middle most value
     while idx0 <= idxn:
-        midval = (idx0 + idxn) // 2
+        midval = (idx0 + idxn)// 2
         if list[midval] == val:
             return midval
 # Compare the value to the middle most value
